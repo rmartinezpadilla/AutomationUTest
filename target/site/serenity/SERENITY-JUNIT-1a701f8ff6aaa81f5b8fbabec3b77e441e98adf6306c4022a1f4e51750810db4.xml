@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="I as user of the UTest" skipped="0" tests="1" time="6.97" timestamp="2022-08-11 07:01:49"><testcase name="Successful user creation"><error message="Step [^user create an account filling all fields (.*)$] is defined with 1 parameters at 'co.com.renting.stepdefinitions.RegisterUserStepDefinitions.userCreateAnAccountFillingAllFields(java.lang.String)'.&#10;However, the gherkin step has 2 arguments:&#10; * &lt;nombre&gt;&#10; * Table:&#10;      | nombre |&#10;      | Ruben  |&#10;&#10;Step text: user create an account filling all fields &lt;nombre&gt;" type="io.cucumber.core.exception.CucumberException">Step [^user create an account filling all fields (.*)$] is defined with 1 parameters at 'co.com.renting.stepdefinitions.RegisterUserStepDefinitions.userCreateAnAccountFillingAllFields(java.lang.String)'.
+However, the gherkin step has 2 arguments:
+ * &lt;nombre&gt;
+ * Table:
+      | nombre |
+      | Ruben  |
+
+Step text: user create an account filling all fields &lt;nombre&gt;</error><system-err>Step [^user create an account filling all fields (.*)$] is defined with 1 parameters at 'co.com.renting.stepdefinitions.RegisterUserStepDefinitions.userCreateAnAccountFillingAllFields(java.lang.String)'.
+However, the gherkin step has 2 arguments:
+ * &lt;nombre&gt;
+ * Table:
+      | nombre |
+      | Ruben  |
+
+Step text: user create an account filling all fields &lt;nombre&gt;&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>
